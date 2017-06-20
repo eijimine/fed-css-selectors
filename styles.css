@@ -40,6 +40,18 @@ ol >  li p {
   background-color: grey;
 }
 
-ol > li:nth-child(2n+1) {
+ol > li:nth-child(odd) p {
   background-color: green;
 }
+
+#advanced-selectors ol li:nth-child(4) p a:hover {
+  text-decoration: none;
+}
+
+#advanced-selectors ul li a:hover {
+  background-color: yellow;
+}
+
+/*#advanced-selectors ul li a:active {
+  color: red;
+}*/
