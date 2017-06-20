@@ -52,6 +52,6 @@ ol > li:nth-child(odd) p {
   background-color: yellow;
 }
 
-/*#advanced-selectors ul li a:active {
+#advanced-selectors ul li a:active {
   color: red;
-}*/
+}
